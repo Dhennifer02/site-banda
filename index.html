@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sugestões de Repertório | Wedding Music</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Lato:wght@300;400&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Lato', sans-serif;
+            background-color: #F5EEE6; /* Bege Arrosado */
+            color: #5D5451;
+        }
+        h1, h2, h3 { font-family: 'Playfair Display', serif; }
+        .btn-gold {
+            background-color: #C19A6B;
+            transition: all 0.3s ease;
+        }
+        .btn-gold:hover {
+            background-color: #A67C52;
+            transform: translateY(-2px);
+        }
+        .card-repertorio {
+            background-color: rgba(255, 255, 255, 0.5);
+            border: 1px solid #E2D1C3;
+        }
+    </style>
+</head>
+<body>
+
+    <section id="home" class="min-h-screen flex flex-col items-center justify-center px-6 text-center">
+        <div class="max-w-3xl">
+            <h1 class="text-5xl md:text-7xl mb-6 text-[#8D7B68]">Nossa Melodia, Seu Sonho</h1>
+            <p class="text-lg md:text-xl leading-relaxed mb-8">
+                Somos apaixonados por transformar momentos em memórias inesquecíveis. Com anos de experiência em cerimônias e recepções, nossa banda busca a harmonia perfeita entre técnica e emoção para o seu grande dia.
+            </p>
+            
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-10">
+                <div class="h-40 bg-gray-300 rounded-lg shadow-md overflow-hidden flex items-center justify-center italic text-sm">Foto 01</div>
+                <div class="h-40 bg-gray-300 rounded-lg shadow-md overflow-hidden flex items-center justify-center italic text-sm">Foto 02</div>
+                <div class="h-40 bg-gray-300 rounded-lg shadow-md overflow-hidden flex items-center justify-center italic text-sm">Foto 03</div>
+                <div class="h-40 bg-gray-300 rounded-lg shadow-md overflow-hidden flex items-center justify-center italic text-sm">Foto 04</div>
+            </div>
+
+            <a href="#repertorio" class="btn-gold text-white px-8 py-4 rounded-full text-lg font-bold uppercase tracking-widest shadow-lg">
+                Ver Sugestões de Repertório
+            </a>
+        </div>
+    </section>
+
+    <section id="repertorio" class="py-20 px-6 bg-[#FAF6F2]">
+        <div class="max-w-6xl mx-auto">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl md:text-5xl mb-4">Nossas Sugestões</h2>
+                <div class="w-24 h-1 bg-[#C19A6B] mx-auto"></div>
+                <p class="mt-4 italic">Organizamos nossas músicas para facilitar sua escolha</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                
+                <div class="card-repertorio p-8 rounded-xl shadow-sm">
+                    <h3 class="text-2xl mb-4 border-b pb-2">Cerimônia (Românticas)</h3>
+                    <ul class="space-y-2 opacity-80">
+                        <li>• Perfect - Ed Sheeran</li>
+                        <li>• A Thousand Years - Christina Perri</li>
+                        <li>• De Janeiro a Janeiro</li>
+                    </ul>
+                </div>
+
+                <div class="card-repertorio p-8 rounded-xl shadow-sm">
+                    <h3 class="text-2xl mb-4 border-b pb-2">Cerimônia (Evangélicas)</h3>
+                    <ul class="space-y-2 opacity-80">
+                        <li>• Soube que me amava</li>
+                        <li>• Que bom que você chegou</li>
+                        <li>• Em Teus Braços</li>
+                    </ul>
+                </div>
+
+                <div class="card-repertorio p-8 rounded-xl shadow-sm">
+                    <h3 class="text-2xl mb-4 border-b pb-2">Cerimônia (Internacionais)</h3>
+                    <ul class="space-y-2 opacity-80">
+                        <li>• Hallelujah</li>
+                        <li>• Can't Help Falling in Love</li>
+                        <li>• Shallow</li>
+                    </ul>
+                </div>
+
+                <div class="card-repertorio p-8 rounded-xl shadow-sm border-l-4 border-l-[#C19A6B]">
+                    <h3 class="text-2xl mb-4 border-b pb-2">Recepção (Românticas)</h3>
+                    <ul class="space-y-2 opacity-80">
+                        <li>• Coisa Linda - Tiago Iorc</li>
+                        <li>• Pela Luz dos Olhos Teus</li>
+                    </ul>
+                </div>
+
+                <div class="card-repertorio p-8 rounded-xl shadow-sm border-l-4 border-l-[#C19A6B]">
+                    <h3 class="text-2xl mb-4 border-b pb-2">Recepção (Internacionais)</h3>
+                    <ul class="space-y-2 opacity-80">
+                        <li>• Fly Me to the Moon</li>
+                        <li>• Isn't She Lovely</li>
+                    </ul>
+                </div>
+
+                <div class="card-repertorio p-8 rounded-xl shadow-sm border-l-4 border-l-[#C19A6B]">
+                    <h3 class="text-2xl mb-4 border-b pb-2">Recepção (Animadas)</h3>
+                    <ul class="space-y-2 opacity-80">
+                        <li>• Dancing Queen - ABBA</li>
+                        <li>• Don't Stop Me Now - Queen</li>
+                        <li>• Vale Tudo - Tim Maia</li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <div class="mt-20 text-center">
+                <a href="#home" class="text-sm underline opacity-60">Voltar para o início</a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="py-10 text-center text-xs opacity-50 uppercase tracking-widest">
+        &copy; 2026 Sua Banda de Casamento - Todos os direitos reservados.
+    </footer>
+
+</body>
+</html>
